@@ -1,0 +1,13 @@
+2021-04-21T19:50:36+00:00 CRITICAL Uncaught Error: Class 'WC_Regenerate_Images_Request' not found in /var/www/vhosts/adoan.vn/httpdocs/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php:49
+Stack trace:
+#0 /var/www/vhosts/adoan.vn/httpdocs/wp-includes/class-wp-hook.php(287): WC_Regenerate_Images::init('')
+#1 /var/www/vhosts/adoan.vn/httpdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/vhosts/adoan.vn/httpdocs/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/vhosts/adoan.vn/httpdocs/wp-settings.php(546): do_action('init')
+#4 /var/www/vhosts/adoan.vn/httpdocs/wp-config.php(90): require_once('/var/www/vhosts...')
+#5 /var/www/vhosts/adoan.vn/httpdocs/wp-load.php(37): require_once('/var/www/vhosts...')
+#6 /var/www/vhosts/adoan.vn/httpdocs/wp-blog-header.php(13): require_once('/var/www/vhosts...')
+#7 /var/www/vhosts/adoan.vn/httpdocs/index.php(17): require('/var/www/vhosts...')
+#8 {main}
+  thrown in /var/www/vhosts/adoan.vn/httpdocs/wp-content/plugins/woocommerce/includes/class-wc-regenerate-images.php on line 49
+
